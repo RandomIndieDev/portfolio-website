@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "powershell -Command \"Remove-Item -Recurse -Force dist, .parcel-cache -ErrorAction SilentlyContinue\"",
     "start": "parcel src/index.html --no-cache",
-    "build": "parcel build src/index.html --no-cache"
+    "build": "parcel build src/index.html --no-cache --dist-dir docs"
   },
   "repository": {
     "type": "git",
